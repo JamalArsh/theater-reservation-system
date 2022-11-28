@@ -1,0 +1,31 @@
+.movie-card {
+  height: auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+img {
+  width: 200px;
+  height: 350px;
+}
+
+main {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+h6 {
+  font-size: large;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.cards-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.movie-card:hover {
+  box-shadow: 0 0 5px gray;
+}

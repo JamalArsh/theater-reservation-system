@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign In</title>
     <link rel="stylesheet" href="../CSS/HeaderAndFooter.css" />
+    <link rel="stylesheet" href="../CSS/SignInPage.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -47,19 +48,28 @@
       </nav>
     </header>
     <main>
-      <p>Sign in</p>
-      <p>
-        accusantium necessitatibus commodi. Temporibus quia enim, provident nemo
-        ratione dolore repudiandae! Omnis exercitationem, aut laboriosam maiores
-        veritatis explicabo minus nulla perspiciatis quis quidem asperiores
-        debitis quibusdam esse minus magnam enim harum possimus illo! Soluta
-        necessitatibus, quos reprehenderit veritatis obcaecati eum! Accusamus
-        dolorem quam deleniti maxime, aspernatur ipsam suscipit corrupti
-        eligendi eos sit quasi! Ab quos eius vitae, iste accusamus nesciunt
-        nihil dolor rerum minima, ex aut numquam temporibus provident doloremque
-        ratione iure sed eveniet. Adipisci iusto, dicta doloribus ullam cum
-        totam. Quisquam, cumque! Error libero delectus nisi. Sapiente autem
-      </p>
+      <form action="">
+        <fieldset>
+          <legend>Sign in</legend>
+          <label for="email">Email</label><br />
+          <input class="text-box" type="email" id="email" name="email" /><br />
+          <label for="password">Password</label><br />
+          <input
+            class="text-box"
+            type="password"
+            id="password"
+            name="password"
+          />
+          <input id="submit-button" type="submit" value="SIGN IN" />
+          <hr />
+          <div id="social">
+            <a href=""><i class="fa fa-google fa-4x" aria-hidden="true"></i></a>
+            <a href=""
+              ><i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i
+            ></a>
+          </div>
+        </fieldset>
+      </form>
     </main>
     <footer>
       <div class="footer-top">
