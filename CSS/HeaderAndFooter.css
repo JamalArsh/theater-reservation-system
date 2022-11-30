@@ -42,6 +42,14 @@ footer {
 .sign-in-button {
   width: 15%;
   height: 2rem;
+  border: 3px solid white;
+  background-color: #3d8361;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+.sign-in-button:hover {
+  background-color: white;
+  color: #3d8361;
 }
 
 .night-mode-button {
@@ -51,6 +59,12 @@ footer {
   background: transparent;
   border: 0;
   color: white;
+  transition: filter 0.5s, color 0.5s;
+}
+
+.night-mode-button:hover {
+  filter: drop-shadow(0 0 5px white);
+  color: black;
 }
 
 .footer-top {
@@ -88,4 +102,19 @@ footer {
 
 .social {
   color: white;
+}
+
+.nav-bar-a:hover {
+  /* border-bottom: 3px solid white; */
+  color: #8d9eff;
+}
+
+#twitter:hover {
+  color: aqua;
+}
+#facebook:hover {
+  color: #002e94;
+}
+#instagram:hover {
+  color: #ff1700;
 }
