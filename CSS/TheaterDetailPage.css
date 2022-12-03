@@ -1,0 +1,48 @@
+main {
+  width: 100%;
+  height: auto;
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#filters {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#photos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.ph {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 1rem;
+}
+#ph-1 {
+  background-color: aqua;
+}
+#ph-2 {
+  background-color: blueviolet;
+}
+#ph-3 {
+  background-color: brown;
+}
+
+.fil {
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+  background-color: yellow;
+}

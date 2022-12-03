@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Payment Details</title>
     <link rel="stylesheet" href="../CSS/HeaderAndFooter.css" />
+    <link rel="stylesheet" href="../CSS/PaymentDetail.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -47,24 +48,59 @@
       </nav>
     </header>
     <main>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga,
-        explicabo ad reiciendis ducimus, saepe officia praesentium ex aliquam
-        veritatis omnis inventore sed quas, vero atque? Est aspernatur incidunt
-        veritatis nisi.
-      </p>
-      <p>
-        accusantium necessitatibus commodi. Temporibus quia enim, provident nemo
-        ratione dolore repudiandae! Omnis exercitationem, aut laboriosam maiores
-        veritatis explicabo minus nulla perspiciatis quis quidem asperiores
-        debitis quibusdam esse minus magnam enim harum possimus illo! Soluta
-        necessitatibus, quos reprehenderit veritatis obcaecati eum! Accusamus
-        dolorem quam deleniti maxime, aspernatur ipsam suscipit corrupti
-        eligendi eos sit quasi! Ab quos eius vitae, iste accusamus nesciunt
-        nihil dolor rerum minima, ex aut numquam temporibus provident doloremque
-        ratione iure sed eveniet. Adipisci iusto, dicta doloribus ullam cum
-        totam. Quisquam, cumque! Error libero delectus nisi. Sapiente autem
-      </p>
+      <form action="">
+        <h3>CONTACT DETAILS</h3>
+        <input class="input-boxes" type="email" placeholder="Email" />
+        <input class="input-boxes" type="tel" placeholder="Phone number" />
+        <h3>OFFERS AND DISCOUNTS</h3>
+        <input
+          class="input-boxes"
+          type="text"
+          placeholder="Enter your offer code"
+        />
+        <h2>PAYMENT DETAILS</h2>
+        <select name="" id="">
+          <option value="">Visa card</option>
+          <option value="">Master card</option>
+        </select>
+        <div id="container">
+          <input
+            class="input-boxes"
+            id="card-number"
+            type="number"
+            placeholder="Card number"
+          />
+          <input
+            class="input-boxes"
+            type="text"
+            placeholder="Card holder name"
+          />
+          <p>Expiry</p>
+          <input
+            class="input-boxes"
+            type="number"
+            placeholder="MM"
+            max="12"
+            min="1"
+          />
+          <input
+            class="input-boxes"
+            type="number"
+            placeholder="YY"
+            max="2030"
+            min="2010"
+          /><br />
+          <input
+            class="input-boxes"
+            id="cvv"
+            type="number"
+            placeholder="CVV"
+            max="100"
+            min="999"
+          />
+        </div>
+        <button id="confirm" type="submit">Confirm Purchase</button>
+      </form>
     </main>
     <footer>
       <div class="footer-top">

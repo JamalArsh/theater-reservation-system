@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Date and Time Selection</title>
     <link rel="stylesheet" href="../CSS/HeaderAndFooter.css" />
+    <link rel="stylesheet" href="../CSS/DateTimeSelectionPage.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -47,13 +48,110 @@
       </nav>
     </header>
     <main>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga,
-        explicabo ad reiciendis ducimus, saepe officia praesentium ex aliquam
-        veritatis omnis inventore sed quas, vero atque? Est aspernatur incidunt
-        veritatis nisi.
-      </p>
-      <p>date and time</p>
+      <div id="movie-details-card"></div>
+      <div>
+        <form action="" id="filters">
+          <input type="date" id="date" />
+          <select name="time-filter" id="time-filter">
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="evening">Evening</option>
+            <option value="night">Night</option>
+          </select>
+        </form>
+      </div>
+      <div id="selection">
+        <div class="selection-rows" id="row-1">
+          <div class="selection-card">
+            <h3>Regal cinema: Nuwara Eliya</h3>
+            <select class="time-box">
+              <option value="morning">7.30 AM</option>
+              <option value="afternoon">2.00 PM</option>
+              <option value="evening">5.00 PM</option>
+              <option value="night">9.00 PM</option>
+            </select>
+          </div>
+          <div class="selection-card">
+            <h3>CineMax: Ja-Ela</h3>
+            <select class="time-box">
+              <option value="morning">7.30 AM</option>
+              <option value="afternoon">2.00 PM</option>
+              <option value="evening">5.00 PM</option>
+              <option value="night">9.00 PM</option>
+            </select>
+          </div>
+          <div class="selection-card">
+            <h3>Eros cinema: Colombo</h3>
+            <select class="time-box">
+              <option value="morning">7.30 AM</option>
+              <option value="afternoon">2.00 PM</option>
+              <option value="evening">5.00 PM</option>
+              <option value="night">9.00 PM</option>
+            </select>
+          </div>
+        </div>
+        <div class="selection-rows" id="row-2">
+          <div class="selection-card">
+            <h3>Magestic cineplex: Colombo</h3>
+            <select class="time-box">
+              <option value="morning">7.30 AM</option>
+              <option value="afternoon">2.00 PM</option>
+              <option value="evening">5.00 PM</option>
+              <option value="night">9.00 PM</option>
+            </select>
+          </div>
+          <div class="selection-card">
+            <h3>Concord cinema: Dehiwala</h3>
+            <select class="time-box">
+              <option value="morning">7.30 AM</option>
+              <option value="afternoon">2.00 PM</option>
+              <option value="evening">5.00 PM</option>
+              <option value="night">9.00 PM</option>
+            </select>
+          </div>
+          <div class="selection-card">
+            <h3>Regal cinema: Jaffna</h3>
+            <select class="time-box">
+              <option value="morning">7.30 AM</option>
+              <option value="afternoon">2.00 PM</option>
+              <option value="evening">5.00 PM</option>
+              <option value="night">9.00 PM</option>
+            </select>
+          </div>
+        </div>
+        <div class="selection-rows" id="row-3">
+          <div class="selection-card">
+            <h3>Savoy Roxy: Wellawatte</h3>
+            <select class="time-box">
+              <option value="morning">7.30 AM</option>
+              <option value="afternoon">2.00 PM</option>
+              <option value="evening">5.00 PM</option>
+              <option value="night">9.00 PM</option>
+            </select>
+          </div>
+          <div class="selection-card">
+            <h3>CineCity cinema: Maradana</h3>
+            <select class="time-box">
+              <option value="morning">7.30 AM</option>
+              <option value="afternoon">2.00 PM</option>
+              <option value="evening">5.00 PM</option>
+              <option value="night">9.00 PM</option>
+            </select>
+          </div>
+          <div class="selection-card">
+            <h3>Regal cinema: Nuwara Eliya</h3>
+            <select class="time-box">
+              <option value="morning">7.30 AM</option>
+              <option value="afternoon">2.00 PM</option>
+              <option value="evening">5.00 PM</option>
+              <option value="night">9.00 PM</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div id="button-section">
+        <button id="confirm">Confirm</button>
+      </div>
     </main>
     <footer>
       <div class="footer-top">
