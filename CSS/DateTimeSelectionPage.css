@@ -71,7 +71,7 @@ h3 {
   padding: 0.2rem 0.5rem;
 }
 #time-filter {
-  width: 7rem;
+  width: auto;
   height: auto;
   border-radius: 5px;
   padding: 0.2rem 0.5rem;

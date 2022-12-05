@@ -12,12 +12,19 @@ img {
 main {
   padding-top: 5vh;
   padding-bottom: 5vh;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 h6 {
   font-size: large;
   margin-top: 5px;
   margin-bottom: 5px;
+  margin-left: 0.5rem;
+}
+
+p {
+  margin-left: 0.5rem;
 }
 
 .cards-row {
