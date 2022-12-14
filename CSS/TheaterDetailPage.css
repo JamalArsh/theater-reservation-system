@@ -26,13 +26,16 @@ main {
   margin-bottom: 1rem;
 }
 #ph-1 {
-  background-color: aqua;
+  background-image: url(../temp-images/theatre_1.jpg);
+  background-size: cover;
 }
 #ph-2 {
-  background-color: blueviolet;
+  background-image: url(../temp-images/theatre_2.jpg);
+  background-size: cover;
 }
 #ph-3 {
-  background-color: brown;
+  background-image: url(../temp-images/theatre_3.jpg);
+  background-size: cover;
 }
 
 .fil {
@@ -44,5 +47,6 @@ main {
 #map {
   width: 100%;
   height: 500px;
-  background-color: yellow;
+  background-image: url(../temp-images/map.PNG);
+  background-size: cover;
 }

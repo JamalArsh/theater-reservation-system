@@ -27,7 +27,7 @@ h2 {
 
 #container {
   margin-top: 1rem;
-  background-color: beige;
+  background-color: #b1b2ff;
   padding: 1rem 0.5rem;
   border-radius: 10px;
 }
@@ -64,4 +64,5 @@ form {
   padding: 0 0.5rem;
   padding-bottom: 1rem;
   border-radius: 5px;
+  background-color: #eef1ff;
 }
