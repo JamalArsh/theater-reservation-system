@@ -1,3 +1,11 @@
+:root {
+  --out-box: #eef1ff;
+  /* --out-box: #0f3460; */
+
+  --in-box: #b1b2ff;
+  /* --in-box: #2d033b; */
+}
+
 main {
   width: 100%;
   display: flex;
@@ -27,7 +35,9 @@ h2 {
 
 #container {
   margin-top: 1rem;
-  background-color: #b1b2ff;
+  /* background-color: #b1b2ff; */
+  /* background-color: #2d033b; */
+  background-color: var(--in-box);
   padding: 1rem 0.5rem;
   border-radius: 10px;
 }
@@ -64,5 +74,6 @@ form {
   padding: 0 0.5rem;
   padding-bottom: 1rem;
   border-radius: 5px;
-  background-color: #eef1ff;
+  /* background-color: #eef1ff; */
+  background-color: var(--out-box);
 }

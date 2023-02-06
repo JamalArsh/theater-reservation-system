@@ -1,0 +1,60 @@
+.movie-card {
+  height: auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+img {
+  width: 200px;
+  height: 350px;
+}
+
+main {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+h6 {
+  font-size: large;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0.5rem;
+}
+p {
+  margin-left: 0.5rem;
+}
+
+.cards-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+
+.movie-card:hover {
+  box-shadow: 0 0 5px gray;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 1.5rem;
+}
+
+select {
+  width: 100px;
+  height: 35px;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+/* #language {
+  float: left;
+}
+#genre {
+  float: none;
+}
+#format {
+  float: right;
+} */

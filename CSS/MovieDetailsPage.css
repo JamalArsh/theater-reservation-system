@@ -1,0 +1,43 @@
+/* div {
+  border: 2px solid black;
+} */
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  padding: 2rem 0;
+}
+
+h3 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+}
+
+.d-box {
+  padding: 0.5rem 1rem;
+  border: 2px solid black;
+}
+
+#poster {
+  width: 200px;
+  height: 350px;
+  margin-right: 1rem;
+  /* background-image: url("E:\Study Materials\7th Semester\EC 9540 - Human Computer Interaction\Project\HCI_Project\upcoming\movie-poster-1.jpg"); */
+}
+
+#details {
+  width: 900px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, 200px);
+}
+#ps {
+  width: 200px;
+  height: 350px;
+  object-fit: cover;
+}

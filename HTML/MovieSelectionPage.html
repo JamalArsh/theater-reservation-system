@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign In</title>
+    <title>Movie Selection</title>
     <link rel="stylesheet" href="../CSS/HeaderAndFooter.css" />
-    <link rel="stylesheet" href="../CSS/SignInPage.css" />
+    <link rel="stylesheet" href="../CSS/MovieSelectionPage.css" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -17,7 +17,7 @@
       type="text/css"
     />
   </head>
-  <body onload="dispName()">
+  <body>
     <header>
       <nav>
         <div class="nav-bar-1">
@@ -49,41 +49,70 @@
       </nav>
     </header>
     <main>
-      <!-- Create by kaja -->
-      <!-- <div id="DisplayName"></div> -->
-
-      <form action="">
-        <fieldset>
-          <legend>Sign in</legend>
-          <label for="email">Email</label><br />
-          <input
-            class="text-box"
-            type="email"
-            id="email"
-            name="email"
-            required
-          /><br />
-          <label for="password">Password</label><br />
-          <input
-            class="text-box"
-            type="password"
-            id="password"
-            name="password"
-            required
-            minlength="6"
-          />
-          <input id="submit-button" type="submit" value="SIGN IN" />
-          <p id="or">OR</p>
-          <hr />
-          <div id="social">
-            <a href=""><i class="fa fa-google fa-4x" aria-hidden="true"></i></a>
-            <a href=""
-              ><i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i
-            ></a>
-          </div>
-          <p>Need an account <a href="SignUpPage.html">Sign up</a></p>
-        </fieldset>
-      </form>
+      <div class="filters">
+        <select name="Language" id="language">
+          <option value="" disabled selected>Language</option>
+          <option value="english">English</option>
+          <option value="sinhala">Sinhala</option>
+          <option value="tamil">Tamil</option>
+        </select>
+        <select name="Genre" id="genre">
+          <option value="" disabled selected>Genre</option>
+          <option value="action">Action</option>
+          <option value="adventure">Adventure</option>
+          <option value="comedy">Comedy</option>
+          <option value="horror">Horror</option>
+        </select>
+        <select name="Format" id="format">
+          <option value="" disabled selected>Format</option>
+          <option value="2D">2D</option>
+          <option value="3D">3D</option>
+        </select>
+      </div>
+      <div class="cards-row">
+        <div class="movie-card">
+          <img src="../movie-images/1.jpg" alt="movie poster" />
+          <h6>Wakanda Forever</h6>
+          <p>English</p>
+        </div>
+        <div class="movie-card">
+          <img src="../movie-images/5.jpg" alt="movie poster" />
+          <h6>Mandela</h6>
+          <p>Tamil</p>
+        </div>
+        <div class="movie-card">
+          <img src="../movie-images/2.jpg" alt="movie poster" />
+          <h6>Black Adam</h6>
+          <p>English</p>
+        </div>
+        <div class="movie-card">
+          <img src="../movie-images/6.jpg" alt="movie poster" />
+          <h6>Sarkar</h6>
+          <p>Tamil</p>
+        </div>
+      </div>
+      <div class="cards-row">
+        <div class="movie-card">
+          <img src="../movie-images/3.jpg" alt="movie poster" />
+          <h6>Ticket to Paradise</h6>
+          <p>English</p>
+        </div>
+        <div class="movie-card">
+          <img src="../movie-images/7.jpg" alt="movie poster" />
+          <h6>Puss in Boots</h6>
+          <p>English</p>
+        </div>
+        <div class="movie-card">
+          <img src="../movie-images/4.jpg" alt="movie poster" />
+          <h6>Teddy</h6>
+          <p>Tamil</p>
+        </div>
+        <div class="movie-card">
+          <img src="../movie-images/8.jpg" alt="movie poster" />
+          <h6>Doctor</h6>
+          <p>Tamil</p>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="footer-top">
@@ -123,6 +152,6 @@
       </div>
       <div class="footer-bottom">Copywright 2022 &copy; Details</div>
     </footer>
-    <script src="../JavaScript/SignInPage.js"></script>
+    <script src="../JavaScript/MovieDetailPage.js"></script>
   </body>
 </html>

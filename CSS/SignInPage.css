@@ -1,3 +1,8 @@
+:root {
+  --box-3: #abd9ff;
+  /* --box-3: #2d033b; */
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -15,7 +20,7 @@ main {
 
 fieldset {
   width: 20vw;
-  background-color: #abd9ff;
+  background-color: var(--box-3);
 }
 
 legend {
